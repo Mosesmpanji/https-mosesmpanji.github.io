@@ -87,7 +87,7 @@
 </head>
 <body>
   <header>
-    <img src="your-logo.png" alt="Mosempanji Aquifer Oil Genesis Ltd Logo" style="width: 20px; height: auto;">
+    <img src="your-logo.png" alt="Mosempanji Aquifer Oil Genesis Ltd Logo" style="width: 100px; height: 5;">
     <h1>Smoothening the Future</h1>
   </header>
 
