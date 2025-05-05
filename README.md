@@ -18,10 +18,14 @@
       background: linear-gradient(to right, lightblue, chocolate);
       padding: 1rem;
       color: white;
-      text-align: center;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     header h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
+      margin-left: 10px;
     }
     nav {
       background: palegreen;
@@ -37,7 +41,7 @@
     }
     .slider {
       width: 100%;
-      max-height: 400px;
+      height: 100vh;
       overflow: hidden;
       position: relative;
     }
@@ -48,7 +52,8 @@
     }
     .slides img {
       width: 100%;
-      height: auto;
+      height: 100vh;
+      object-fit: cover;
     }
     @keyframes slide {
       0% { transform: translateX(0); }
@@ -82,8 +87,8 @@
 </head>
 <body>
   <header>
-    <h1>Mosempanji Aquifer Oil Genesis Ltd</h1>
-    <p><em>Smoothening the future</em></p>
+    <img src="your-logo.png" alt="Mosempanji Aquifer Oil Genesis Ltd Logo" style="width: 100px; height: auto;">
+    <h1>Smoothening the Future</h1>
   </header>
 
   <nav>
@@ -95,7 +100,7 @@
   </nav>
 
   <div class="slider">
-    <div class="slides">
+    <div class="slides" data-bs-interval="3000">
       <img src="IMG-20240831-WA0121.jpg" alt="Slide 1">
       <img src="IMG-20240831-WA0141.jpg" alt="Slide 2">
       <img src="Oil_sources-1200*772.jpg" alt="Slide 3">
