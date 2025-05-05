@@ -5,25 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mosempanji Aquifer Oil Genesis Ltd</title>
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
       font-family: Arial, sans-serif;
       background-color: #f0fff0;
-      color: #222;
     }
     header {
-      background: chocolate;
-      color: white;
+      background: linear-gradient(to right, lightblue, chocolate);
       padding: 1rem;
+      color: white;
       text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
     }
     nav {
       background: palegreen;
-      padding: 0.5rem;
+      padding: 0.75rem;
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
-      gap: 2rem;
+      gap: 1.5rem;
     }
     nav a {
       color: #333;
@@ -32,20 +37,18 @@
     }
     .slider {
       width: 100%;
-      height: 400px;
+      max-height: 400px;
       overflow: hidden;
       position: relative;
     }
     .slides {
       display: flex;
       width: 400%;
-      height: 100%;
-      animation: slide 20s infinite;
+      animation: slide 12s infinite;
     }
     .slides img {
       width: 100%;
-      height: 400px;
-      object-fit: cover;
+      height: auto;
     }
     @keyframes slide {
       0% { transform: translateX(0); }
@@ -57,34 +60,23 @@
     section {
       padding: 2rem;
     }
+    .product-inquiry {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #e0ffe0;
+      border: 1px solid #ccc;
+    }
+    .product-inquiry input, .product-inquiry textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+    }
     footer {
       background: lightblue;
       color: #000;
       text-align: center;
       padding: 1rem;
       margin-top: 2rem;
-    }
-    .inquiry-form {
-      background-color: #e0ffe0;
-      padding: 1rem;
-      border-radius: 10px;
-    }
-    .inquiry-form input,
-    .inquiry-form textarea {
-      width: 100%;
-      padding: 0.5rem;
-      margin-top: 0.5rem;
-      margin-bottom: 1rem;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    .inquiry-form button {
-      background-color: chocolate;
-      color: white;
-      border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      cursor: pointer;
     }
   </style>
 </head>
@@ -104,73 +96,60 @@
 
   <div class="slider">
     <div class="slides">
-      <img src="IMG-20240831-WA0121.jpg" alt="Slide 1" />
-      <img src="IMG-20240831-WA0141.jpg" alt="Slide 2" />
-      <img src="Oil_sources-1200*772.jpg" alt="Slide 3" />
-      <img src="R(1).jpeg" alt="Slide 4" />
+      <img src="IMG-20240831-WA0121.jpg" alt="Slide 1">
+      <img src="IMG-20240831-WA0141.jpg" alt="Slide 2">
+      <img src="Oil_sources-1200*772.jpg" alt="Slide 3">
+      <img src="R(1).jpeg" alt="Slide 4">
     </div>
   </div>
 
   <section id="home">
     <h2>Welcome to Mosempanji Aquifer Oil Genesis Ltd</h2>
-    <p>Your reliable partner in hydrocarbons and gasoline logistics, smoothing the future with every drop. We are dedicated to bridging energy solutions across borders with unmatched professionalism and commitment.</p>
+    <p>Your reliable partner in hydrocarbons and gasoline logistics, smoothing the future with every drop.</p>
   </section>
 
   <section id="about">
     <h2>About Us</h2>
-    <p>
-      Mosempanji Aquifer Oil Genesis Ltd is a dynamic energy company committed to driving growth and sustainability in the oil and gas industry. Founded with a vision to provide dependable energy solutions, our company has rapidly evolved into a trusted name in the logistics and importation of hydrocarbon products.
-    </p>
-    <p>
-      Our business model is centered on customer satisfaction, safety, and efficiency. We specialize in the importation and distribution of premium-grade gasoline and hydrocarbons, ensuring clients across Tanzania and beyond have access to consistent energy supplies.
-    </p>
-    <p>
-      With a strong logistical network and strategic international partnerships, Mosempanji Aquifer Oil Genesis Ltd guarantees seamless delivery of energy products to businesses and institutions. We believe in innovation, environmental responsibility, and transparency. Our team of experienced professionals continuously works to optimize operations while maintaining compliance with industry standards and government regulations.
-    </p>
-    <p>
-      As we expand our footprint, our commitment remains steadfast: to empower communities, enhance energy accessibility, and shape a cleaner and more energy-secure future for all.
-    </p>
+    <p>Mosempanji Aquifer Oil Genesis Ltd is a leading provider of energy solutions, specializing in the supply of premium gasoline and hydrocarbons to meet the growing demands of the industrial and commercial sectors. With a vision rooted in innovation, sustainability, and excellence, our company was established to bridge the energy needs of local and international markets through seamless importing and logistics services.</p>
+    <p>We pride ourselves on our commitment to environmental responsibility and customer satisfaction. Our operations are designed to ensure efficient sourcing, safe transportation, and timely delivery of petroleum products. Through strategic partnerships and a dedicated team of professionals, Mosempanji Aquifer Oil Genesis Ltd strives to play a key role in the development of reliable energy infrastructure and economic progress.</p>
+    <p>From sourcing quality hydrocarbons globally to delivering them at your doorstep, we handle everything with precision and care. Trust us to power your industry, business, or community with integrity and a smooth approach to energy supply.</p>
   </section>
 
   <section id="products">
     <h2>Our Products</h2>
     <ul>
-      <li>
-        <strong>Gasoline:</strong> High-quality petrol refined and tested to meet regulatory and environmental standards, ideal for automobiles and machinery.
-      </li>
-      <li>
-        <strong>Hydrocarbons:</strong> A range of organic compounds including alkanes, alkenes, and other derivatives used in fuel, industrial processing, and petrochemical production.
-      </li>
+      <li><strong>Gasoline:</strong> High-quality fuel for vehicles and industrial machines, ensuring performance and efficiency.</li>
+      <li><strong>Hydrocarbons:</strong> A wide range of refined petroleum products used across multiple energy and manufacturing sectors.</li>
     </ul>
   </section>
 
   <section id="services">
     <h2>Our Services</h2>
     <ul>
-      <li><strong>Logistics Solutions:</strong> We manage the full transport and distribution of energy products from international sources to your local facility.</li>
-      <li><strong>Importing Energy Products:</strong> Expertise in international trade and procurement of fuel, ensuring you receive safe and certified energy supplies.</li>
+      <li><strong>Logistics Solutions:</strong> End-to-end energy product delivery through road, rail, and sea logistics.</li>
+      <li><strong>Importing Energy Products:</strong> We specialize in bringing in quality gasoline and hydrocarbons from international sources to ensure local energy stability.</li>
     </ul>
+  </section>
+
+  <section class="product-inquiry">
+    <h3>Request a Product</h3>
+    <form>
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="product">Product Description / Inquiry</label>
+      <textarea id="product" name="product" rows="4" required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:mosesmpanji123@gmail.com">mosesmpanji123@gmail.com</a></p>
-
-    <div class="inquiry-form">
-      <h3>Request a Product</h3>
-      <form>
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="product">Requested Product:</label>
-        <textarea id="product" name="product" rows="4" required></textarea>
-
-        <button type="submit">Submit Inquiry</button>
-      </form>
-    </div>
   </section>
 
   <footer>
