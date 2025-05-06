@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -75,7 +74,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background-color: #e6fff2;
+      background-color: #8d9e6a; /* Updated to a fitting color */
+      color: white;
     }
     .product-inquiry {
       margin-top: 2rem;
@@ -120,13 +120,11 @@
       <img src="IMG-20240831-WA0141.jpg" alt="Slide 2">
       <img src="Oil_sources-1200x772.jpg" alt="Slide 3">
      <img src="images/R4.jpeg" alt="Slide 4">
-
     </div>
   </div>
 
   <section id="home">
-    <h2>Welcome to Mosempanji Aquifer Oil Genesis Ltd</h2>
-    <p>Your reliable partner in hydrocarbons and gasoline logistics, smoothing the future with every drop.</p>
+    <!-- Removed the h2 and p tags as requested -->
   </section>
 
   <section id="about">
