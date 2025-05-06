@@ -119,7 +119,8 @@
       <img src="IMG-20240831-WA0121.jpg" alt="Slide 1">
       <img src="IMG-20240831-WA0141.jpg" alt="Slide 2">
       <img src="Oil_sources-1200x772.jpg" alt="Slide 3">
-      <img src="R(1).jpeg" alt="Slide 4">
+     <img src="images/R4.jpeg" alt="Slide 4">
+
     </div>
   </div>
 
