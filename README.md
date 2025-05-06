@@ -99,7 +99,7 @@
 </head>
 <body>
   <header>
-    <img src="company-logo.png" alt="Company Logo" class="logo" />
+    <img src="logo_resized.png" alt="Company Logo" class="logo" />
     <div>
       <h1>Mosempanji Aquifer Oil Genesis Ltd</h1>
       <p><em>Smoothening the future</em></p>
