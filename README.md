@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -17,15 +17,20 @@
     header {
       background: linear-gradient(to right, lightblue, chocolate);
       padding: 1rem;
-      color: white;
-      text-align: left;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      color: white;
+    }
+    .logo {
+      height: 60px;
+      margin-right: 1rem;
     }
     header h1 {
-      font-size: 1.5rem;
-      margin-left: 10px;
+      font-size: 1.8rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1rem;
     }
     nav {
       background: palegreen;
@@ -41,7 +46,7 @@
     }
     .slider {
       width: 100%;
-      height: 100vh;
+      max-height: 400px;
       overflow: hidden;
       position: relative;
     }
@@ -52,7 +57,7 @@
     }
     .slides img {
       width: 100%;
-      height: 100vh;
+      height: 400px;
       object-fit: cover;
     }
     @keyframes slide {
@@ -64,6 +69,13 @@
     }
     section {
       padding: 2rem;
+    }
+    #home {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #e6fff2;
     }
     .product-inquiry {
       margin-top: 2rem;
@@ -87,8 +99,11 @@
 </head>
 <body>
   <header>
-    <img src="your-logo.png" alt="Mosempanji Aquifer Oil Genesis Ltd Logo" style="width: 100px; height: 5;">
-    <h1>Smoothening the Future</h1>
+    <img src="company-logo.png" alt="Company Logo" class="logo" />
+    <div>
+      <h1>Mosempanji Aquifer Oil Genesis Ltd</h1>
+      <p><em>Smoothening the future</em></p>
+    </div>
   </header>
 
   <nav>
@@ -100,10 +115,10 @@
   </nav>
 
   <div class="slider">
-    <div class="slides" data-bs-interval="3000">
+    <div class="slides">
       <img src="IMG-20240831-WA0121.jpg" alt="Slide 1">
       <img src="IMG-20240831-WA0141.jpg" alt="Slide 2">
-      <img src="Oil_sources-1200*772.jpg" alt="Slide 3">
+      <img src="Oil_sources-1200x772.jpg" alt="Slide 3">
       <img src="R(1).jpeg" alt="Slide 4">
     </div>
   </div>
