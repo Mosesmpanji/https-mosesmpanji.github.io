@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=5.0" />
   <title>Mosempanji Aquifer Oil Genesis Ltd</title>
   <style>
     * {
