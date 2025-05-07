@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,17 +13,10 @@
       padding: 0;
     }
     header {
-      background-color: #8b4513;
+      background: linear-gradient(to right, #8b4513, #a0522d);
       color: white;
       padding: 1em;
       text-align: center;
-    }
-    header {
-      background: ;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      color: white;
     }
     .logo {
       height: 60px;
@@ -57,31 +49,30 @@
     }
     .slides {
       display: flex;
-      width: 400%;
-      animation: slide 12s;
+      width: 300%;
+      animation: slide 15s infinite;
     }
     .slides img {
-      width: 90%;
+      width: 100%;
       height: 360px;
       object-fit: cover;
     }
     @keyframes slide {
       0% { transform: translateX(0); }
-      25% { transform: translateX(-100%); }
-      50% { transform: translateX(-200%); }
-      75% { transform: translateX(-300%); }
+      33% { transform: translateX(-100%); }
+      66% { transform: translateX(-200%); }
       100% { transform: translateX(0); }
     }
     section {
       padding: 1em;
     }
     #home {
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background-color: #8d9e6a; /* Updated to a fitting color */
-      color: white;
+      background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+      color: #333;
     }
     .product-inquiry {
       margin-top: 1em;
@@ -95,8 +86,8 @@
       margin: 0.5rem 0;
     }
     footer {
-      background: lightblue;
-      color: #000;
+      background: #8b4513;
+      color: white;
       text-align: center;
       padding: 1em;
       margin-top: 1em;
@@ -110,31 +101,6 @@
       <h1>Mosempanji Aquifer Oil Genesis Ltd</h1>
       <p><em>Smoothening the future</em></p>
     </div>
-    nav {
-      background-color: #a3d9a5;
-      padding: 1em;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 1em;
-      color: #333;
-      text-decoration: none;
-    }
-    section {
-      padding: 2em;
-    }
-    footer {
-      background-color: #8b4513;
-      color: white;
-      text-align: center;
-      padding: 1em;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Mosempanji Aquifer Oil Genesis Ltd</h1>
-    <p><em>Smoothening the future</em></p>
   </header>
   <nav>
     <a href="#about">About</a>
@@ -142,22 +108,20 @@
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </nav>
-    <div class="slider">
+  <div class="slider">
     <div class="slides">
       <img src="IMG-20240831-WA0121.jpg" alt="Slide 1">
       <img src="IMG-20240831-WA0141.jpg" alt="Slide 2">
       <img src="Oil_sources-1200x772.jpg" alt="Slide 3">
-     <img src="images/R4.jpeg" alt="Slide 4">
     </div>
   </div>
   <section id="home">
-    <!-- Removed the h2 and p tags as requested -->
+  </section>
   <section id="about">
     <h2>About Us</h2>
     <p>Mosempanji Aquifer Oil Genesis Ltd is a leading provider of energy solutions, specializing in the supply of premium gasoline and hydrocarbons to meet the growing demands of the industrial and commercial sectors. With a vision rooted in innovation, sustainability, and excellence, our company was established to bridge the energy needs of local and international markets through seamless importing and logistics services.</p>
     <p>We pride ourselves on our commitment to environmental responsibility and customer satisfaction. Our operations are designed to ensure efficient sourcing, safe transportation, and timely delivery of petroleum products. Through strategic partnerships and a dedicated team of professionals, Mosempanji Aquifer Oil Genesis Ltd strives to play a key role in the development of reliable energy infrastructure and economic progress.</p>
     <p>From sourcing quality hydrocarbons globally to delivering them at your doorstep, we handle everything with precision and care. Trust us to power your industry, business, or community with integrity and a smooth approach to energy supply.</p>
-
   </section>
   <section id="products">
     <h2>Our Products</h2>
@@ -173,7 +137,7 @@
       <li><strong>Importing Energy Products:</strong> We specialize in bringing in quality gasoline and hydrocarbons from international sources to ensure local energy stability.</li>
     </ul>
   </section>
-   <section class="product-inquiry">
+  <section class="product-inquiry">
     <h3>Request a Product</h3>
     <form>
       <label for="name">Your Name</label>
