@@ -4,24 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mosempanji Aquifer Oil Genesis Ltd</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(to right, #5c3317, #a0522d);
-      color: white;
-      padding: 2em 1em;
-      text-align: center;
-    }
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: linear-gradient(to right, #8b4513, #a0522d);
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  .logo {
+    height: 100%;
+    width: 80px;
+    object-fit: cover;
+  }
+  .header-text {
+    padding-left: 1em;
+  }
+  nav {
+    background: palegreen;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+</style>
+
+<header>
+  <img src="logo.jpg" alt="Company Logo" class="logo" />
+  <div class="header-text">
+    <h1>Mosempanji Aquifer Oil Genesis Ltd</h1>
+    <p><em>Smoothening the future</em></p>
+  </div>
+</header>
     nav {
       background-color: #d0f0c0;
       padding: 1em;
@@ -44,7 +71,7 @@
     .slides {
       display: flex;
       width: 300%;
-      animation: slide 180s infinite;
+      animation: slide 300s infinite;
     }
     .slides img {
       width: 100%;
